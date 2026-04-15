@@ -1,0 +1,49 @@
+[project]
+name = "churn"
+version = "0.1.0"
+description = "Leakage-free churn modeling pipeline for the graduation project"
+authors = [
+    { email = "lin10309988@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.3.0",
+    "pandas>=2.3.0",
+    "scikit-learn>=1.7.0",
+    "openpyxl>=3.1.5",
+    "boruta>=0.4.3",
+]
+
+[project.optional-dependencies]
+baseline = [
+    "imbalanced-learn>=0.14.0",
+    "xgboost>=3.0.0",
+    "lightgbm>=4.6.0",
+    "catboost>=1.2.8",
+]
+deep = [
+    "tensorflow>=2.19.0",
+]
+explain = [
+    "shap>=0.48.0",
+]
+
+[project.scripts]
+churn = "churn.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.9.24,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "ruff>=0.15.10",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
