@@ -1,0 +1,13 @@
+model_name,scenario,policy,coupon_tier,decision_value,intervened,expected_saved_customers,expected_saved_value,coupon_cost_total,net_gain,roi
+sdae_one_class,neutral,threshold_all,half,0.15,495,27.75,114672.3,17404.25,97268.05,5.588752747173823
+sdae_one_class,neutral,topk,half,0.5,352,24.45,101277.75,13019.625,88258.125,6.778853077565598
+sdae_standard,neutral,threshold_all,half,0.15,493,27.75,114672.3,17362.175,97310.125,5.604719742774163
+sdae_standard,neutral,topk,half,0.5,352,24.45,101277.75,12905.55,88372.2,6.847612073875194
+sdae_one_class,optimistic,threshold_all,half,0.1,548,46.75,193088.0,19041.074999999997,174046.925,9.140603931238127
+sdae_one_class,optimistic,topk,half,0.5,352,40.75,168796.25,13019.625,155776.625,11.964755129275996
+sdae_standard,optimistic,threshold_all,half,0.1,547,46.75,193088.0,19064.425000000003,174023.575,9.128183776851387
+sdae_standard,optimistic,topk,half,0.5,352,40.75,168796.25,12905.55,155890.7,12.079353456458657
+sdae_one_class,pessimistic,threshold_all,half,0.2,454,14.56,60198.64,16168.875,44029.765,2.7231186461643127
+sdae_one_class,pessimistic,topk,half,0.5,352,13.040000000000001,54014.8,13019.625,40995.175,3.148721641368319
+sdae_standard,pessimistic,threshold_all,half,0.2,455,14.64,60468.880000000005,16246.975,44221.905000000006,2.721854683718046
+sdae_standard,pessimistic,topk,half,0.5,352,13.040000000000001,54014.8,12905.55,41109.25,3.18539310606677

@@ -1,1 +1,31 @@
-feature,importance
+feature,importance,direction_sign,model_name
+在网时长（月）,1.1045098062659842,1.0,logistic_regression
+家属,0.610797548098505,1.0,logistic_regression
+总费用,0.43325527669751807,-1.0,logistic_regression
+合同类型_Two year,0.3282539956181744,1.0,logistic_regression
+月费用,0.32285516644155576,-1.0,logistic_regression
+合同类型_Month-to-month,0.27698786481486326,1.0,logistic_regression
+互联网服务_DSL,0.239213256105058,1.0,logistic_regression
+互联网服务_Fiber optic,0.2356910877501658,1.0,logistic_regression
+无纸化账单,0.15190628598258127,1.0,logistic_regression
+伴侣,0.12936764595796216,1.0,logistic_regression
+流媒体电视_No internet service,0.12448978463083543,1.0,logistic_regression
+技术支持_No internet service,0.12448978463083543,1.0,logistic_regression
+网络安全_No internet service,0.12448978463083543,1.0,logistic_regression
+互联网服务_No,0.12448978463083543,1.0,logistic_regression
+流媒体电影_No internet service,0.12448978463083543,1.0,logistic_regression
+流媒体电影_No,0.09179399321512154,-1.0,logistic_regression
+流媒体电视_No,0.08972701733755219,-1.0,logistic_regression
+支付方式_Bank transfer (automatic),0.07784608779494358,1.0,logistic_regression
+支付方式_Electronic check,0.07778841314210586,1.0,logistic_regression
+网络安全_Yes,0.07661431103195952,1.0,logistic_regression
+技术支持_Yes,0.07374398556293847,1.0,logistic_regression
+流媒体电视_Yes,0.0736028987286284,-1.0,logistic_regression
+流媒体电影_Yes,0.07262011347327235,-1.0,logistic_regression
+支付方式_Credit card (automatic),0.07178900753041212,1.0,logistic_regression
+网络安全_No,0.06958704400323794,1.0,logistic_regression
+技术支持_No,0.06691216395454462,1.0,logistic_regression
+支付方式_Mailed check,0.05814448215178893,-1.0,logistic_regression
+合同类型_One year,0.04782219833980939,1.0,logistic_regression
+老年人,0.03579660564389271,-1.0,logistic_regression
+客户终身价值,0.026332918405781516,-1.0,logistic_regression

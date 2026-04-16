@@ -1,0 +1,2 @@
+model_variant,threshold,flip_count_after_top_feature_shift,original_auc,notes
+logistic_regression,0.6,0,0.856595709536886,top_feature=在网时长（月）
